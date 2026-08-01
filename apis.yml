@@ -1,8 +1,24 @@
 aid: qashio-holding-company-limited
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qashio-holding-company-limited.png
 name: Qashio Holding Company Limited
-description: Qashio Holding Company Limited is a company surfaced as a portfolio company of 500-global
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Qashio is a United Arab Emirates-based financial technology company providing corporate
+  spend management for businesses. Its platform offers unlimited smart corporate cards with advanced
+  spending controls, rewards and cashback on transactions, and automated expense management, and it
+  integrates with major ERP and accounting systems including Microsoft Dynamics 365, Oracle NetSuite,
+  SAP, Xero, and Zoho. As of this enrichment pass Qashio publishes no public API, developer portal, or
+  API documentation; this profile was surfaced as a portfolio company of 500 Global and remains a
+  company-level record in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/qashio-holding-company-limited/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fintech
+- Corporate Cards
+- Spend Management
+- Expense Management
+- Payments
+- United Arab Emirates
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/qashio-holding-company-limited-domain-security.yml
 - type: Website
   url: https://qashio.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
