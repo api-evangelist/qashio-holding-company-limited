@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qashio-holding-company-limited.png
-name: Qashio Holding Company Limited
+name: Qashio
 description: Qashio is a United Arab Emirates-based financial technology company providing corporate
   spend management for businesses. Its platform offers unlimited smart corporate cards with advanced
   spending controls, rewards and cashback on transactions, and automated expense management, and it
@@ -64,3 +64,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-legal-name: Qashio Holding Company Limited
